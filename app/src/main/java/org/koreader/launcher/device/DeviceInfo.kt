@@ -323,6 +323,10 @@ object DeviceInfo {
             && (PRODUCT.startsWith("c67") || MODEL.contentEquals("rk30sdk"))
             && DEVICE.startsWith("c67")
 
+        // Noblex ER6A02 (Rebranded Onyx C67)
+        ONYX_C67 = MANUFACTURER.contentEquals("onyx")
+            && (PRODUCT.contentEquals("er6a02"))
+
         // ONYX DARWIN 7
         ONYX_DARWIN7 = MANUFACTURER.contentEquals("onyx")
             && PRODUCT.contentEquals("mc_darwin7")
